@@ -2,8 +2,8 @@
 server:
   port: 8070
 
-  servlet:
-    context-path: /auth-app-backend
+#  servlet:
+#    context-path: /auth-app-backend
 
 # database connections
 spring:
