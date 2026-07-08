@@ -15,12 +15,12 @@ import java.util.Set;
 @Builder
 public class UserDto {
     private Integer id;
-    private String username;
+    private String user;
     private String email;
     private String password;
 
     private String image;
-    private boolean enabled = true;
+    private boolean enable = true;
     private Instant created_at = Instant.now();
     private Instant updated_at = Instant.now();
 

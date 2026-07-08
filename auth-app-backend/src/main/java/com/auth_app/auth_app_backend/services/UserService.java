@@ -40,8 +40,8 @@ public class UserService implements IUserService {
                 .findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("User not found"));
 
-        if(userDto.getUsername()!=null){
-            user.setUsername(userDto.getUsername());
+        if(userDto.getUser()!=null){
+            user.setUser(userDto.getUser());
         }
         if(userDto.getPassword()!=null){
             user.setPassword(userDto.getPassword());
